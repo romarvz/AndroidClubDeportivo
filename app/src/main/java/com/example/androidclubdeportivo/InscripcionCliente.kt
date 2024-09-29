@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class InscripcionCliente : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_inscripcion_cliente)
 
 
         // Referencia al Spinner en el layout
