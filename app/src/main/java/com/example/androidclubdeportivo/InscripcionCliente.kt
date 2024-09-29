@@ -1,29 +1,20 @@
 package com.example.androidclubdeportivo
 
 import android.os.Bundle
-<<<<<<< HEAD
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-=======
+
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import androidx.core.view.ViewCompat
 import androidx.appcompat.app.AppCompatActivity
->>>>>>> dani
+
 
 class InscripcionCliente : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-<<<<<<< HEAD
-        enableEdgeToEdge()
+
         setContentView(R.layout.activity_inscripcion_cliente)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-=======
+
+
         setContentView(R.layout.activity_inscripcion_cliente)
 
 
@@ -42,6 +33,6 @@ class InscripcionCliente : AppCompatActivity() {
 
         // Asignar el adapter al Spinner
         spinnerDocumentType.adapter = adapter
->>>>>>> dani
+
     }
 }

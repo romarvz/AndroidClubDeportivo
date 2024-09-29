@@ -40,8 +40,9 @@
             <!-- Botón con el ícono de la casita -->
             <ImageButton
                 android:id="@+id/homeButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/home_icon"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="Ir a inicio"
 
