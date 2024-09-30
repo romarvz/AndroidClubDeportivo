@@ -82,8 +82,17 @@
                 android:hint="Apellido"
                 android:inputType="textPersonName"
                 android:padding="15dp" />
-
             <Spinner
+                android:id="@+id/spinnerDocumentType"
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_spinner_background"
+                android:fontFamily="@font/montserrat_semibold"
+                android:padding="15dp"
+                android:popupBackground="#FFFFFF"
+                android:spinnerMode="dropdown" />
+            <!--<Spinner
                 android:id="@+id/spinnerDocumentType"
                 android:layout_width="374dp"
                 android:layout_height="wrap_content"
@@ -94,7 +103,7 @@
                 android:drawableEnd="@android:drawable/arrow_down_float"
                 android:drawableTint="#000000"
                 />
-
+-->
             <EditText
                 android:id="@+id/etDocumentNumber"
                 android:layout_width="match_parent"
