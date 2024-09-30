@@ -1,13 +1,20 @@
 package com.example.androidclubdeportivo
 
 import android.os.Bundle
+
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import androidx.core.view.ViewCompat
 import androidx.appcompat.app.AppCompatActivity
+
 
 class InscripcionCliente : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        setContentView(R.layout.activity_inscripcion_cliente)
+
+
         setContentView(R.layout.activity_inscripcion_cliente)
 
 
@@ -26,5 +33,6 @@ class InscripcionCliente : AppCompatActivity() {
 
         // Asignar el adapter al Spinner
         spinnerDocumentType.adapter = adapter
+
     }
 }

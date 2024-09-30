@@ -13,6 +13,10 @@
         android:theme="@style/Theme.AndroidClubDeportivo"
         tools:targetApi="31">
         <activity
+            android:name=".Loguin"
+            android:exported="false" />
+        <!-- Actividad principal con intent-filter para el launcher -->
+        <activity
             android:name=".InscripcionCliente"
             android:exported="true">
             <intent-filter>
@@ -20,7 +24,49 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity> <!-- Otras actividades -->
+        <activity
+            android:name=".Reportes2"
+            android:exported="false" />
+        <activity
+            android:name=".Reportes"
+            android:exported="false" />
+        <activity
+            android:name=".Recibo"
+            android:exported="false" />
+        <activity
+            android:name=".Pagar"
+            android:exported="false" />
+        <activity
+            android:name=".GestionPagos"
+            android:exported="false" />
+        <activity
+            android:name=".Profesores2"
+            android:exported="false" />
+        <activity
+            android:name=".Profesores"
+            android:exported="false" />
+        <activity
+            android:name=".Horarios"
+            android:exported="false" />
+        <activity
+            android:name=".InscripcionActividad"
+            android:exported="false" />
+        <activity
+            android:name=".GestionActividades"
+            android:exported="false" />
+        <activity
+            android:name=".ImpresCarnet"
+            android:exported="false" />
+        <activity
+            android:name=".ModificacionCliente"
+            android:exported="false" />
+        <activity
+            android:name=".GestionCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" /> <!-- Meta-data -->
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
