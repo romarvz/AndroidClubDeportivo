@@ -17,14 +17,15 @@
             android:exported="false" />
         <!-- Actividad principal con intent-filter para el launcher -->
         <activity
-            android:name=".InscripcionCliente"
+            android:name=".ImpresCarnet"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Otras actividades -->
+        </activity>
+
+
         <activity
             android:name=".Reportes2"
             android:exported="false" />
@@ -56,8 +57,8 @@
             android:name=".GestionActividades"
             android:exported="false" />
         <activity
-            android:name=".ImpresCarnet"
-            android:exported="false" />
+            android:name=".InscripcionCliente"
+            android:exported="true" />
         <activity
             android:name=".ModificacionCliente"
             android:exported="false" />

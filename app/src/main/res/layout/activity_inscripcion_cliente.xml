@@ -92,23 +92,7 @@
                 android:padding="15dp"
                 android:popupBackground="#FFFFFF"
                 android:spinnerMode="dropdown" />
-<<<<<<< HEAD
-           <!-- <Spinner
-=======
-            <!--<Spinner
->>>>>>> b01fd01db35ccf322e8cea54cc0d695af13b4f2a
-                android:id="@+id/spinnerDocumentType"
-                android:layout_width="374dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:background="#4DA3B4D3"
-                android:fontFamily="@font/montserrat_semibold"
-                android:padding="15dp"
-                android:drawableEnd="@android:drawable/arrow_down_float"
-                android:drawableTint="#000000"
-                />
--->
-            <EditText
+        <EditText
                 android:id="@+id/etDocumentNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
